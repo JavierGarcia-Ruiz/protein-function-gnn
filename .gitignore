@@ -1,0 +1,27 @@
+# Data & checkpoints (large, reproducible)
+data/raw/
+data/processed/
+models/*
+!models/.gitkeep
+logs/*
+!logs/.gitkeep
+*.pt
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Experiment trackers
+wandb/
+mlruns/
+lightning_logs/
+
